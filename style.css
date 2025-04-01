@@ -1,4 +1,48 @@
-html {
-  height: 100%;
+p{
+  font-size: 20px;
+  text-align: center;
+}
+
+h1{
+  text-align: center;
+}
+
+h2{
+  text-align: center;
+}
+
+#missao{
+  font-size: 24px;
+}
+
+#missao-destaque{
+  color: #010FFF;
+}
+
+img{
   width: 100%;
+}
+
+.beneficios{
+  background-color: #FFFFFF;
+  padding: 20px;
+}
+
+.item{
+  font-style: italic;
+}
+
+.img-beneficio{
+  width: 50%;
+}
+
+ul{
+  display: inline-block;
+  vertical-align: top;
+  width: 20%;
+  margin-right: 15%;
+}
+.principal{
+  background-color: #CCCCCC;
+ padding: 30px;
 }
