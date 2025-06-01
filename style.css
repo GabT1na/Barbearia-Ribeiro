@@ -8,7 +8,7 @@ header {
 .caixa {
   position: relative;
   width: 940px;
-  margin: 0 autAo;
+  margin: 0 auto;
 }
 
 nav {
@@ -250,4 +250,6 @@ p:first-line {
   margin: 2em auto;
 }
 
-@midia screen and()
+@media screen and (max-width: 768px) {
+  /* Add responsive styles here */
+}
