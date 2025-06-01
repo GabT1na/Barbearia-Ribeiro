@@ -250,6 +250,8 @@ p:first-line {
   margin: 2em auto;
 }
 
-@media screen and (max-width: 768px) {
-  /* Add responsive styles here */
+@media screen and (max-width: 480px) {
+    body {
+        background: red;
+    }
 }
