@@ -251,17 +251,7 @@ p:first-line {
 }
 
 @media screen and (max-width: 480px) {
-    .caixa, .principal, .mapa-conteudo, .conteudo-beneficios {
-        width: 90%;
-        margin: 0 auto;
-    }
-    
-    .video {
-        width: 100%;
-    }
-    
-    .video iframe {
-        width: 100%;
-        height: 200px;
+    body {
+        background: red;
     }
 }
