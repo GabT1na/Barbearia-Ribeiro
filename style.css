@@ -1,4 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+body {
+  font-family: 'Montserrat', sans-serif;
+}
 
 header {
   background: #BBBBBB;
@@ -92,9 +94,8 @@ footer {
   margin: 20px 0 0;
 }
 
-main {  
-  opacity: 0.6;
-  margin: 0 auto;
+main {
+
 }
 
 form {
@@ -119,9 +120,9 @@ form label, form legend {
 }
 
 .enviar {
-  width: 40%;
+  width:40%;
   padding: 15px 0;
-  background-color: orange;
+  background: orange;
   color: white;
   font-weight: bold;
   font-size: 18px;
@@ -132,7 +133,7 @@ form label, form legend {
 }
 
 .enviar:hover {
-  background-color: #fe4474;
+  background: darkorange;
   transform: scale(1.2);
 }
 
@@ -141,7 +142,7 @@ table {
 }
 
 thead {
-  background-color: #555555;
+  background: #555555;
   color: white;
   font-weight: bold;
 }
@@ -151,20 +152,17 @@ td, th {
   padding: 8px 15px;
 }
 
-/* css da página inicial*/
+
+/* css da página inicial */
 .banner {
-  width: 100%;
+  width:100%;
 }
 
 .titulo-principal {
-    text-align: center;
-    font-size: 2em;
-    margin: 0 0 1em;
-    clear: left;
-}
-
-p:first-line {
-    font-style: italic;
+  text-align: center;
+  font-size: 2em;
+  margin: 0 0 1em;
+  clear: left;
 }
 
 .principal {
@@ -184,35 +182,6 @@ p:first-line {
 
 .principal em {
   font-style: italic;
-}
-
-.conteudo-beneficios {
-  width: 640px;
-  margin: 0 auto;
-}
-
-.lista-beneficios {
-  width: 40%;
-  display: inline-block;
-  vertical-align: top;
-}
-
-.itens {
-  line-height: 1.5;
-}
-
-.itens:first-child {
-  font-weight: bold;
-}
-
-.imagem-beneficios {
-    width: 60%;
-    transition: 400ms;
-  box-shadow: 10px 10px 10px 0 #000000;
-}
-
-.imagem-beneficios:hover {
-    opacity: 0.3;
 }
 
 .utensilios {
@@ -236,13 +205,43 @@ p:first-line {
   text-align: center;
 }
 
-.itens:before {
-  content: "★ ";
-}
-
 .beneficios {
   padding: 3em 0;
   background: #888888;
+}
+
+.conteudo-beneficios {
+  width: 640px;
+  margin: 0 auto;
+}
+
+.lista-beneficios {
+  width: 40%;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.itens {
+  line-height: 1.5;
+}
+
+.itens:first-child {
+  font-weight: bold;
+}
+
+.itens:before {
+  content: "🟊";
+}
+
+.imagem-beneficios {
+  width: 60%;
+  opacity: 1;
+  transition: 400ms;
+  box-shadow: 10px 10px 10px 0 #000000;
+}
+
+.imagem-beneficios:hover {
+  opacity: 0.3;
 }
 
 .video {
@@ -251,7 +250,19 @@ p:first-line {
 }
 
 @media screen and (max-width: 480px) {
-    body {
-        background: red;
-    }
+  .caixa, .principal, .conteudo-beneficios, .mapa-conteudo, .video {
+    width: auto;
+  }
+
+  h1 {
+    text-align: center;
+  }
+
+  nav {
+    position: static;
+  }
+
+  .lista-beneficios, .imagem-beneficios {
+    width: 100%;
+  }
 }
