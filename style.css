@@ -1,3 +1,4 @@
+
 body {
   font-family: 'Montserrat', sans-serif;
 }
@@ -13,7 +14,7 @@ header {
   margin: 0 auto;
 }
 
-nav {
+nav {⁕
   position: absolute;
   top: 110px;
   right: 0;
@@ -47,7 +48,7 @@ nav a:hover {
   display: inline-block;
   text-align: center;
   width: 30%;
-  vertical-align: top;
+  vertical-align: top;⁕⁕⁕
   margin: 0 1.5%;
   padding: 30px 20px;
   box-sizing: border-box;
@@ -92,10 +93,6 @@ footer {
   color: #FFFFFF;
   font-size: 13px;
   margin: 20px 0 0;
-}
-
-main {
-
 }
 
 form {
@@ -202,7 +199,7 @@ td, th {
 
 .mapa p {
   margin: 0 0 2em;
-  text-align: center;
+  text-align: center;⁕
 }
 
 .beneficios {
@@ -230,7 +227,7 @@ td, th {
 }
 
 .itens:before {
-  content: "🟊";
+  content: "⁕";
 }
 
 .imagem-beneficios {
